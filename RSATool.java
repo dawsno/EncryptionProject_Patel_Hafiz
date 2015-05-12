@@ -6,6 +6,8 @@ public class RSATool {
     public static final String PRIVATE_KEY_FILE = "C:/keys/private.key";
     public static final String PUBLIC_KEY_FILE = "C:/keys/public.key";
 
+    public RSATool()
+    {}
     /**
      * Generate key which contains a pair of private and public key using 1024
      * bytes. Store the set of keys in Prvate.key and Public.key files.

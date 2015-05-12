@@ -1,10 +1,3 @@
-
-/**
- * Write a description of class RailFence here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class RailFence
 {
 
@@ -17,7 +10,7 @@ public class RailFence
         
     }
     
-    public String encode(String s)throws Exception
+    static String encode(String s)throws Exception
  {
   int r=3;
   int c=s.length()/3;
@@ -46,7 +39,7 @@ public class RailFence
   return cipherText;
  }
     
-   public String decode(String s)throws Exception
+  static String decode(String s)throws Exception
  {
   int r=3;
   int c=s.length()/3;
@@ -78,4 +71,3 @@ public class RailFence
   return plainText;
  }
 }
-

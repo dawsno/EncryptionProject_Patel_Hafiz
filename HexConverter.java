@@ -13,7 +13,7 @@ public class HexConverter
         System.out.println(hexToASCII(asciiToHex("hello world")));
     }
 
-    private static String asciiToHex(String asciiValue)
+    public static String asciiToHex(String asciiValue)
     {
         char[] chars = asciiValue.toCharArray();
         StringBuffer hex = new StringBuffer();
@@ -24,7 +24,7 @@ public class HexConverter
         return hex.toString();
     }
 
-    private static String hexToASCII(String hexValue)
+    public static String hexToASCII(String hexValue)
     {
         StringBuilder output = new StringBuilder("");
         for (int i = 0; i < hexValue.length(); i += 2)
